@@ -11,19 +11,21 @@
         tools:context=".MainActivity">
 
         <LinearLayout
+
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:gravity="center"
             android:orientation="vertical">
 
             <de.hdodenhof.circleimageview.CircleImageView
+                android:id="@+id/profileImg"
                 android:layout_width="100dp"
                 android:layout_height="100dp"
                 app:civ_border_width="2dp"
                 app:civ_border_color="#000000"
                 android:scaleType="centerCrop"
 
-                android:src="@drawable/parkhyoshin" />
+                android:src="@mipmap/ic_launcher" />
 
             <TextView
                 android:layout_width="wrap_content"
